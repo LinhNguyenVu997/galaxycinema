@@ -1,0 +1,44 @@
+.wrapper__slide {
+  position: relative;
+}
+.form {
+  position: absolute;
+
+  width: 328px;
+  top: 32px;
+  right: 10%;
+
+  background: rgba(0, 0, 0, 0.8);
+}
+.value__input {
+  padding: 15px 25px;
+}
+.value__input h4 {
+  background: #f26b38;
+  padding: 10px;
+  color: white;
+  float: right;
+  font-size: 15px;
+}
+.title {
+  margin-bottom: 15px;
+}
+.title h4 {
+  background: #f26b38;
+  color: white;
+  display: inline;
+  padding: 12px;
+  font-size: 15px;
+}
+.form__control {
+  background-color: #858180 !important;
+  border-radius: 0 !important;
+  border: 0;
+  color: white !important;
+}
+.carousel__item {
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+}
+
+/* animation and zoomin */

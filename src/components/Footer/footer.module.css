@@ -1,0 +1,75 @@
+.footer__bg {
+  background: #1a1a1a;
+  padding: 48px 48px 10px;
+}
+.title h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.title {
+  margin-left: 16px;
+}
+.title h4::after {
+  background-color: #f26b38;
+  content: "";
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: -2px;
+  width: 4px;
+}
+.list__info {
+  padding: 0;
+  margin: 0;
+}
+.list__info > li {
+  list-style-type: none;
+  color: white;
+}
+.list__info > li > a {
+  font-size: 12px;
+  cursor: pointer;
+}
+.list__info > li > a::before {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f101";
+  margin-right: 6px;
+}
+.wrapper__footer {
+  display: flex;
+  position: relative;
+}
+.wrapper__intro {
+  width: 24%;
+}
+.blog {
+  width: 24%;
+  position: relative;
+}
+.support {
+  width: 24%;
+  position: relative;
+}
+.wrapper__connect {
+  width: 28%;
+}
+.connect__cinema {
+  position: relative;
+}
+.download__app {
+  position: relative;
+}
+.icon {
+  display: flex;
+}
+.icon img {
+  width: 15%;
+  padding: 8px;
+}
+.hr {
+  background: white;
+}
+.bootom__footer span {
+  color: white;
+}
